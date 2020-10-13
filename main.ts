@@ -1,5 +1,5 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
-	
+    servos.P0.setAngle(90)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     servos.P0.setAngle(0)
